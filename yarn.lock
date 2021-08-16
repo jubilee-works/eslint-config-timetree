@@ -1231,7 +1231,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commitizen@^4.0.3, commitizen@^4.2.4:
+commitizen@4.2.4, commitizen@^4.0.3:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-4.2.4.tgz#a3e5b36bd7575f6bf6e7aa19dbbf06b0d8f37165"
   integrity sha512-LlZChbDzg3Ir3O2S7jSo/cgWp5/QwylQVr59K4xayVq8S4/RdKzSyJkghAiZZHfhh5t4pxunUoyeg0ml1q/7aw==
@@ -1373,7 +1373,7 @@ cz-conventional-changelog@3.2.0:
   optionalDependencies:
     "@commitlint/load" ">6.1.1"
 
-cz-conventional-changelog@^3.3.0:
+cz-conventional-changelog@3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/cz-conventional-changelog/-/cz-conventional-changelog-3.3.0.tgz#9246947c90404149b3fe2cf7ee91acad3b7d22d2"
   integrity sha512-U466fIzU5U22eES5lTNiNbZ+d8dfcHcssH4o7QsdWaCcRs/feIPCxKYSWkYBNs5mny7MvEfwpTLWjvbm94hecw==
@@ -1845,7 +1845,7 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
   integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
 
-eslint@^7.32.0:
+eslint@7.32.0:
   version "7.32.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.32.0.tgz#c6d328a14be3fb08c8d1d21e12c02fdb7a2a812d"
   integrity sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==
@@ -2502,7 +2502,7 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
-husky@^7.0.1:
+husky@7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/husky/-/husky-7.0.1.tgz#579f4180b5da4520263e8713cc832942b48e1f1c"
   integrity sha512-gceRaITVZ+cJH9sNHqx5tFwbzlLCVxtVZcusME8JYQ8Edy5mpGDOqD8QBCdMhpyo9a+JXddnujQ4rpY2Ff9SJA==
@@ -5055,7 +5055,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.3.5:
+typescript@4.3.5:
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
   integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
