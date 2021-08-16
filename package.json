@@ -7,7 +7,14 @@
   "author": "Yusuke Fujiki <yusuke@fujikkys.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint './**/*.{js,jsx,ts,tsx}'"
+    "lint": "eslint './**/*.{js,jsx,ts,tsx}'",
+    "prepare": "husky install",
+    "release": "semantic-release"
+   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.0.6",
@@ -31,8 +38,15 @@
     "typescript": "^4.3.5"
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
+    "husky": "^7.0.1",
     "react": "^17.0.2",
+    "semantic-release": "^17.4.4",
     "typescript": "^4.3.5"
   }
 }
