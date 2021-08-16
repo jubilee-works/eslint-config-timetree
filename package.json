@@ -10,7 +10,7 @@
     "lint": "eslint './**/*.{js,jsx,ts,tsx}'",
     "prepare": "husky install",
     "release": "semantic-release"
-   },
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
