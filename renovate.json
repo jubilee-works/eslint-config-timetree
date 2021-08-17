@@ -1,5 +1,18 @@
 {
   "extends": [
     "config:js-lib"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "extends": [
+      "schedule:monthly"
+    ]
+  },
+  "packageRules": [
+    {
+      "depTypeList": ["devDependencies"],
+      "automerge": true
+    }
   ]
 }
