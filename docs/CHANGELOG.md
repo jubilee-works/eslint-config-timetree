@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.0.1...v1.1.0) (2021-08-24)
+
+
+### Features
+
+* add sort-imports rule ([20a83cc](https://github.com/jubilee-works/eslint-config-timetree/commit/20a83ccf18f67e46d36758384ff3a1628dc9d4cc))
+
 ## [1.0.1](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.0.0...v1.0.1) (2021-08-17)
 
 
