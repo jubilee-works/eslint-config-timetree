@@ -132,6 +132,7 @@ module.exports = {
     "react/no-string-refs": "off",
     "react/prop-types": "off",
     "react/require-render-return": "off",
+    "sort-imports": ["error", { ignoreDeclarationSort: true }],
   },
 };
 
