@@ -57,6 +57,7 @@ module.exports = {
       },
     ],
     "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/prefer-ts-expect-error": "error",
     "arrow-body-style": ["error", "as-needed"],
     "default-case": "error",
     eqeqeq: ["error", "smart"],
