@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.1.0...v1.2.0) (2021-09-08)
+
+
+### Features
+
+* add @typescript-eslint/prefer-ts-expect-error ([51145cd](https://github.com/jubilee-works/eslint-config-timetree/commit/51145cd8a38b574720a41597bc822b4745dc2096))
+
 # [1.1.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.0.1...v1.1.0) (2021-08-24)
 
 
