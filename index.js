@@ -128,6 +128,7 @@ module.exports = {
     "react/forbid-dom-props": ["error", { forbid: ["style"] }],
     "react/jsx-boolean-value": "error",
     "react/jsx-no-bind": "error",
+    "react/jsx-no-useless-fragment": "error",
     "react/no-deprecated": "off",
     "react/no-direct-mutation-state": "off",
     "react/no-string-refs": "off",
