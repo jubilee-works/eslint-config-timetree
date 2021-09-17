@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.2.0...v1.3.0) (2021-09-17)
+
+
+### Features
+
+* add react/jsx-no-useless-fragment rule ([50df732](https://github.com/jubilee-works/eslint-config-timetree/commit/50df732f01316c79d944ca791e3031b01fef8831))
+
 # [1.2.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.1.0...v1.2.0) (2021-09-08)
 
 
