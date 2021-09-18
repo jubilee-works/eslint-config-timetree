@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {
+    "jsx": "preserve"
+  },
   "exclude": ["node_modules"],
   "include": ["**/*"]
 }
