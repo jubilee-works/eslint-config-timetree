@@ -80,6 +80,7 @@ module.exports = {
       },
     ],
     "functional/prefer-readonly-type": ["error", { ignorePattern: "^mutable" }],
+    "functional/prefer-type-literal": "off",
     "import/imports-first": "error",
     "import/named": "off",
     "import/namespace": "off",
