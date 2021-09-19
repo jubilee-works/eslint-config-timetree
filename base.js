@@ -1,5 +1,3 @@
-/* eslint-disable functional/immutable-data */
-
 module.exports = {
   extends: [
     "eslint:recommended",
@@ -73,7 +71,7 @@ module.exports = {
     "functional/immutable-data": [
       "error",
       {
-        ignorePattern: ["^mutable"],
+        ignorePattern: ["^mutable", "module.exports"],
         ignoreAccessorPattern: "^*",
         ignoreImmediateMutation: true,
         assumeTypes: true,
@@ -118,5 +116,3 @@ module.exports = {
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
   },
 };
-
-/* eslint-enable functional/immutable-data */
