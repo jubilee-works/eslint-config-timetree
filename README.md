@@ -23,6 +23,22 @@ module.exports = {
 }
 ```
 
+or
+
+```js
+module.exports = {
+  extends: ["timetree/react"]
+}
+```
+
+If your project is not React based, you can use base config.
+
+```js
+module.exports = {
+  extends: ["timetree/base"]
+}
+```
+
 Run `eslint`!
 
 ```sh
