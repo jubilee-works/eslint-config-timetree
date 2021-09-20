@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.3.0...v1.4.0) (2021-09-20)
+
+
+### Features
+
+* separate base and react config ([3306665](https://github.com/jubilee-works/eslint-config-timetree/commit/3306665ce496c49c033be731e30361597af69d49))
+
 # [1.3.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.2.0...v1.3.0) (2021-09-17)
 
 
