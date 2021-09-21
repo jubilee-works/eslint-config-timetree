@@ -1,3 +1,11 @@
+## [1.4.1](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.4.0...v1.4.1) (2021-09-21)
+
+
+### Bug Fixes
+
+* remove duplicate rules about prefer type literal ([3d41c5e](https://github.com/jubilee-works/eslint-config-timetree/commit/3d41c5ea21fc020d42a216891e1122afa368b9f4))
+* use allowExpressions option for react/jsx-no-useless-fragment ([b9d057c](https://github.com/jubilee-works/eslint-config-timetree/commit/b9d057c9277400995158fbcb0cb3be06c8d512f8))
+
 # [1.4.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.3.0...v1.4.0) (2021-09-20)
 
 
