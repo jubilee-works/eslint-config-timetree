@@ -1,4 +1,3 @@
-/* eslint-disable functional/immutable-data */
 module.exports = {
   branches: ["main"],
   plugins: [
@@ -22,4 +21,3 @@ module.exports = {
     ],
   ],
 };
-/* eslint-enable functional/immutable-data */

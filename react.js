@@ -1,5 +1,3 @@
-/* eslint-disable functional/immutable-data */
-
 module.exports = {
   extends: [
     require.resolve("./base"),
@@ -28,5 +26,3 @@ module.exports = {
     "react/require-render-return": "off",
   },
 };
-
-/* eslint-enable functional/immutable-data */
