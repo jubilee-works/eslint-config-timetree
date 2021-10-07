@@ -103,6 +103,7 @@ module.exports = {
     ],
     "no-console": ["warn", { allow: ["info", "warn", "error", "dir"] }],
     "no-duplicate-imports": "error",
+    "no-implicit-coercion": ["error", { allow: ["!!"] }],
     "no-irregular-whitespace": "off",
     "no-prototype-builtins": "off",
     "no-undef": "off",
