@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.4.1...v1.5.0) (2021-10-11)
+
+
+### Features
+
+* add `no-implicit-coercion` rule ([611608f](https://github.com/jubilee-works/eslint-config-timetree/commit/611608fca8993f8db0f730f997a305e3c5dc6de2))
+
 ## [1.4.1](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.4.0...v1.4.1) (2021-09-21)
 
 
