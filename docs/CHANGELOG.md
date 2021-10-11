@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.5.0...v1.5.1) (2021-10-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jest to v25 ([a038ce9](https://github.com/jubilee-works/eslint-config-timetree/commit/a038ce9e3ae7c46b4d93d1862ea36c623e5e0448))
+
 # [1.5.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.4.1...v1.5.0) (2021-10-11)
 
 
