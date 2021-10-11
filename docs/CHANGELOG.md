@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.5.1...v1.5.2) (2021-10-11)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5 ([273a8fe](https://github.com/jubilee-works/eslint-config-timetree/commit/273a8feb56ccc84c3d4eeb3aada170caeccf9cfd))
+
 ## [1.5.1](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.5.0...v1.5.1) (2021-10-11)
 
 
