@@ -23,7 +23,7 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-functional": "^3.6.0",
-    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jest": "^25.0.0",
     "eslint-plugin-jest-formatting": "^3.0.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
