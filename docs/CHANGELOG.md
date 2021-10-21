@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.5.2...v1.5.3) (2021-10-21)
+
+
+### Bug Fixes
+
+* **base.js:** disable @typescript-eslint/prefer-readonly-parameter-type ([b92e800](https://github.com/jubilee-works/eslint-config-timetree/commit/b92e800f94b8daa17357f808fbc3cc1e8cac9236))
+
 ## [1.5.2](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.5.1...v1.5.2) (2021-10-11)
 
 
