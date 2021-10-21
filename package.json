@@ -40,7 +40,7 @@
     "@commitlint/cli": "13.2.1",
     "@semantic-release/changelog": "6.0.0",
     "@semantic-release/git": "10.0.0",
-    "@types/react": "17.0.30",
+    "@types/react": "17.0.31",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.0.1",
