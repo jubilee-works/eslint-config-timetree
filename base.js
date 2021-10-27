@@ -49,7 +49,7 @@ module.exports = {
       },
     ],
     "@typescript-eslint/no-var-requires": "off",
-    "@typescript-eslint/prefer-readonly-parameter-type": "off",
+    "@typescript-eslint/prefer-readonly-parameter-types": "off",
     "@typescript-eslint/prefer-ts-expect-error": "error",
     "arrow-body-style": ["error", "as-needed"],
     "default-case": "error",
