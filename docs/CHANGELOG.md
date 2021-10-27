@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.5.3...v1.6.0) (2021-10-27)
+
+
+### Features
+
+* **base.js:** fix typos for @typescript-eslint/prefer-readonly-parameter-types ([e05c68d](https://github.com/jubilee-works/eslint-config-timetree/commit/e05c68d47cefa3bfaf92af7fefb60f1ab1dd3649))
+
 ## [1.5.3](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.5.2...v1.5.3) (2021-10-21)
 
 
