@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.6.0...v1.6.1) (2022-02-02)
+
+
+### Bug Fixes
+
+* **deps:** upgrade dependencies ([b76ec60](https://github.com/jubilee-works/eslint-config-timetree/commit/b76ec60fc6e05ba6ccf64e3549991d3700a10430))
+
 # [1.6.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.5.3...v1.6.0) (2021-10-27)
 
 
