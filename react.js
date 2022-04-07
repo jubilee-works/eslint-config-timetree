@@ -17,6 +17,10 @@ module.exports = {
     "react/forbid-component-props": ["error", { forbid: ["style"] }],
     "react/forbid-dom-props": ["error", { forbid: ["style"] }],
     "react/jsx-boolean-value": "error",
+    "react/jsx-curly-brace-presence": [
+      "error",
+      { props: "never", children: "never" },
+    ],
     "react/jsx-no-bind": "error",
     "react/jsx-no-useless-fragment": ["error", { allowExpressions: true }],
     "react/no-deprecated": "off",
