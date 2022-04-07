@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.6.1...v1.7.0) (2022-04-07)
+
+
+### Features
+
+* **react:** add rule 'react/jsx-curly-brace-presence' ([330f740](https://github.com/jubilee-works/eslint-config-timetree/commit/330f740f6a2f9ea1a05122e6d12b8249ab00545c))
+
 ## [1.6.1](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.6.0...v1.6.1) (2022-02-02)
 
 
