@@ -43,7 +43,7 @@
     "@types/react": "18.0.6",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.13.0",
+    "eslint": "8.14.0",
     "husky": "7.0.4",
     "react": "18.0.0",
     "semantic-release": "19.0.2",
