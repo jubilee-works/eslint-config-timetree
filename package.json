@@ -13,7 +13,10 @@
     "prepublish": "yarn build",
     "release": "semantic-release"
   },
-  "files": ["dist"],
+  "files": [
+    "dist",
+    "!dist/tests"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
