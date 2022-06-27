@@ -1,7 +1,9 @@
 {
+  "extends": "@tsconfig/node16-strictest/tsconfig.json",
   "compilerOptions": {
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "outDir": "dist"
   },
-  "exclude": ["node_modules"],
-  "include": ["**/*"]
+  "exclude": ["node_modules", "src/tests"],
+  "include": ["src/**/*"]
 }
