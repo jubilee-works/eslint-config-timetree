@@ -1,7 +1,8 @@
+import type { Linter } from "eslint";
+
 module.exports = {
   extends: [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
     "plugin:eslint-comments/recommended",
     "plugin:functional/external-recommended",
     "plugin:functional/recommended",
@@ -9,17 +10,9 @@ module.exports = {
     "plugin:jest-formatting/recommended",
     "prettier",
   ],
-  plugins: [
-    "@typescript-eslint",
-    "functional",
-    "jest-formatting",
-    "jest",
-    "prefer-arrow",
-    "promise",
-  ],
-  parser: "@typescript-eslint/parser",
+  plugins: ["functional", "jest-formatting", "jest", "prefer-arrow", "promise"],
   parserOptions: {
-    project: ["./tsconfig.json"],
+    sourceType: "module",
   },
   env: {
     es6: true,
@@ -31,26 +24,6 @@ module.exports = {
     "import/resolver": { alias: true },
   },
   rules: {
-    "@typescript-eslint/ban-ts-comment": "off",
-    "@typescript-eslint/ban-types": "off",
-    "@typescript-eslint/consistent-type-definitions": ["error", "type"],
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/no-empty-function": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-inferrable-types": "off",
-    "@typescript-eslint/no-non-null-assertion": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        args: "after-used",
-        argsIgnorePattern: "^_",
-        ignoreRestSiblings: true,
-      },
-    ],
-    "@typescript-eslint/no-var-requires": "off",
-    "@typescript-eslint/prefer-readonly-parameter-types": "off",
-    "@typescript-eslint/prefer-ts-expect-error": "error",
     "arrow-body-style": ["error", "as-needed"],
     "default-case": "error",
     eqeqeq: ["error", "smart"],
@@ -118,4 +91,37 @@ module.exports = {
     radix: "error",
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
   },
-};
+  overrides: [
+    {
+      files: ["**.{ts,tsx}"],
+      extends: ["plugin:@typescript-eslint/recommended"],
+      plugins: ["@typescript-eslint"],
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        project: ["./tsconfig.json"],
+      },
+      rules: {
+        "@typescript-eslint/ban-ts-comment": "off",
+        "@typescript-eslint/ban-types": "off",
+        "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-inferrable-types": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            args: "after-used",
+            argsIgnorePattern: "^_",
+            ignoreRestSiblings: true,
+          },
+        ],
+        "@typescript-eslint/no-var-requires": "off",
+        "@typescript-eslint/prefer-readonly-parameter-types": "off",
+        "@typescript-eslint/prefer-ts-expect-error": "error",
+      },
+    },
+  ],
+} as Linter.Config;
