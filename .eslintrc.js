@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["./dist/index.js"],
+  extends: [require.resolve("./index")],
 };

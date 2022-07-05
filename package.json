@@ -15,7 +15,10 @@
   },
   "files": [
     "dist",
-    "!dist/tests"
+    "!dist/tests",
+    "index.js",
+    "react.js",
+    "base.js"
   ],
   "config": {
     "commitizen": {
