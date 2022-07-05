@@ -1,3 +1,15 @@
+## [1.7.2](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.7.1...v1.7.2) (2022-07-05)
+
+
+### Bug Fixes
+
+* **files:** add index.js, react.js, base.js in root dir ([824fe9d](https://github.com/jubilee-works/eslint-config-timetree/commit/824fe9de9a7b568ffaaef905a99ce723bf73bc1c))
+
+
+### Reverts
+
+* fix working directory ([b930af5](https://github.com/jubilee-works/eslint-config-timetree/commit/b930af58c4c90ea6769c026772c5c41d74e1fb75))
+
 ## [1.7.1](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.7.0...v1.7.1) (2022-07-05)
 
 
