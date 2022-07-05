@@ -1,3 +1,5 @@
+import type { Linter } from "eslint";
+
 module.exports = {
   extends: [
     require.resolve("./base"),
@@ -29,4 +31,4 @@ module.exports = {
     "react/prop-types": "off",
     "react/require-render-return": "off",
   },
-};
+} as Linter.Config;
