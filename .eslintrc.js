@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["timetree/react"],
+  extends: ["./dist/index.js"],
 };
