@@ -7,7 +7,7 @@
     "lint:eslint-config-timetree": "yarn --cwd packages/eslint-config-timetree lint",
     "lint:tests": "yarn --cwd packages/tests lint",
     "build": "yarn --cwd packages/eslint-config-timetree build",
-    "release": "yarn --cwd packages/eslint-config-timetree release"
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "17.0.3",
-    "commitizen": "4.2.4"
+    "commitizen": "4.2.4",
+    "husky": "8.0.1"
   }
 }
