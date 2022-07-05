@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.7.0...v1.7.1) (2022-07-05)
+
+
+### Bug Fixes
+
+* **eslint-config:** separate js and ts via extension ([ad95a01](https://github.com/jubilee-works/eslint-config-timetree/commit/ad95a01f5cf62d7ac8d6dbce2ca97759d74bcdae))
+
 # [1.7.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.6.1...v1.7.0) (2022-04-07)
 
 
