@@ -1,3 +1,11 @@
+## [1.7.3](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.7.2...v1.7.3) (2022-07-07)
+
+
+### Bug Fixes
+
+* **base:** add latest option into the perserOptions.ecmaVersion ([4f869e3](https://github.com/jubilee-works/eslint-config-timetree/commit/4f869e35063ad36ece87eda297b7b05d1fbb3307))
+* **package.json:** fix main field ([ffa2b35](https://github.com/jubilee-works/eslint-config-timetree/commit/ffa2b351d17da4c50c5ed1ba4745ac7f94499d41))
+
 ## [1.7.2](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.7.1...v1.7.2) (2022-07-05)
 
 
