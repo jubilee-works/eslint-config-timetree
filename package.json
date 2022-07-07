@@ -2,7 +2,7 @@
   "name": "eslint-config-timetree",
   "version": "1.7.2",
   "description": "A sharable ESLint config for TimeTree",
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": "https://github.com/jubilee-works/eslint-config-timetree",
   "author": "Yusuke Fujiki <yusuke@fujikkys.com>",
   "license": "MIT",
