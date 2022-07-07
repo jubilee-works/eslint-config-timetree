@@ -13,6 +13,7 @@ module.exports = {
   plugins: ["functional", "jest-formatting", "jest", "prefer-arrow", "promise"],
   parserOptions: {
     sourceType: "module",
+    ecmaVersion: "latest",
   },
   env: {
     es6: true,
