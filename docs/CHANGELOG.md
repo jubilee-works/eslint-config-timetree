@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.7.3...v1.8.0) (2022-08-03)
+
+
+### Features
+
+* introduce `@typescript-eslint/consistent-type-imports` rule ([d3474c1](https://github.com/jubilee-works/eslint-config-timetree/commit/d3474c130c0e33eb489b336c64f52ee402336b6c))
+
 ## [1.7.3](https://github.com/jubilee-works/eslint-config-timetree/compare/v1.7.2...v1.7.3) (2022-07-07)
 
 
