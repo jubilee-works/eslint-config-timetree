@@ -55,7 +55,7 @@
     "commitizen": "4.2.6",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.31.0",
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "react": "18.2.0",
     "rimraf": "3.0.2",
     "semantic-release": "19.0.5",
