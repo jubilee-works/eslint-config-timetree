@@ -52,7 +52,7 @@
     "@tsconfig/node16-strictest": "1.0.4",
     "@types/eslint": "8.4.10",
     "@types/react": "18.0.27",
-    "commitizen": "4.2.6",
+    "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.32.0",
     "husky": "8.0.3",
