@@ -50,7 +50,7 @@
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@tsconfig/node16-strictest": "1.0.4",
-    "@types/eslint": "8.37.0",
+    "@types/eslint": "8.40.0",
     "@types/react": "18.2.6",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
