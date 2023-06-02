@@ -59,7 +59,7 @@
     "husky": "8.0.3",
     "react": "18.2.0",
     "rimraf": "5.0.1",
-    "semantic-release": "21.0.2",
+    "semantic-release": "21.0.3",
     "typescript": "5.1.3"
   }
 }
