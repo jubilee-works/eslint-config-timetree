@@ -717,10 +717,10 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"
   integrity sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==
 
-"@tsconfig/node-lts@18.12.2":
-  version "18.12.2"
-  resolved "https://registry.yarnpkg.com/@tsconfig/node-lts/-/node-lts-18.12.2.tgz#3972803ff63c00bb9d60248e11582386a9413ff2"
-  integrity sha512-1zbWpsZkChnemJsRm+G2EyjuPueNPkjBEfp08ET1uCv0CUL/5AK1IZvFtEsw7ZyEqojIydye3mwt6k8isULj4A==
+"@tsconfig/node-lts@18.12.3":
+  version "18.12.3"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node-lts/-/node-lts-18.12.3.tgz#57d651e80ce2c1dbaafda6d272e6d1abd66760e4"
+  integrity sha512-a8FraAjwaGKERCO5PowJeeCE/0Kv1whqegfNwJRIPG08Z5QDr6Kl1CgRrdIjGQtUCpSm+/BDCGeRKfAF1mg+ZQ==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
