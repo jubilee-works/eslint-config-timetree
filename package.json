@@ -51,7 +51,7 @@
     "@semantic-release/git": "10.0.1",
     "@tsconfig/node-lts": "18.12.3",
     "@tsconfig/strictest": "2.0.1",
-    "@types/eslint": "8.40.2",
+    "@types/eslint": "8.44.0",
     "@types/react": "18.2.14",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
