@@ -9,9 +9,7 @@
   "scripts": {
     "lint": "eslint './**/*.{js,jsx,ts,tsx}'",
     "build": "rimraf dist && tsc",
-    "prepare": "husky install",
-    "prepublish": "yarn build",
-    "release": "semantic-release"
+    "prepublish": "yarn build"
   },
   "files": [
     "dist",
@@ -20,11 +18,6 @@
     "react.js",
     "base.js"
   ],
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
@@ -46,17 +39,12 @@
     "typescript": "^4.3.5 || ^5.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.6.6",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
     "@tsconfig/node-lts": "18.12.3",
     "@tsconfig/strictest": "2.0.1",
     "@types/eslint": "8.44.0",
+    "@types/node": "18.15.3",
     "@types/react": "18.2.14",
-    "commitizen": "4.3.0",
-    "cz-conventional-changelog": "3.3.0",
     "eslint": "8.44.0",
-    "husky": "8.0.3",
     "react": "18.2.0",
     "rimraf": "5.0.1",
     "semantic-release": "21.0.7",
