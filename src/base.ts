@@ -4,7 +4,7 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:eslint-comments/recommended",
-    "plugin:functional/external-recommended",
+    "plugin:functional/external-vanilla-recommended",
     "plugin:functional/recommended",
     "plugin:import/errors",
     "plugin:jest-formatting/recommended",
@@ -30,19 +30,6 @@ module.exports = {
     eqeqeq: ["error", "smart"],
     "eslint-comments/no-unused-disable": "error",
     "functional/functional-parameters": "off",
-    "functional/no-class": "off",
-    "functional/no-conditional-statement": "off",
-    "functional/no-expression-statement": "off",
-    "functional/no-method-signature": "error",
-    "functional/no-mixed-type": "off",
-    "functional/no-return-void": "off",
-    "functional/no-this-expression": "off",
-    "functional/no-throw-statement": "off",
-    "functional/no-try-statement": "off",
-    "functional/no-let": [
-      "error",
-      { allowLocalMutation: true, ignorePattern: "^mutable" },
-    ],
     "functional/immutable-data": [
       "error",
       {
@@ -52,8 +39,21 @@ module.exports = {
         assumeTypes: true,
       },
     ],
+    "functional/no-classes": "off",
+    "functional/no-conditional-statements": "off",
+    "functional/no-expression-statements": "off",
+    "functional/no-mixed-types": "off",
+    "functional/no-return-void": "off",
+    "functional/no-this-expressions": "off",
+    "functional/no-throw-statements": "off",
+    "functional/no-try-statements": "off",
+    "functional/prefer-property-signatures": "error",
     "functional/prefer-readonly-type": ["error", { ignorePattern: "^mutable" }],
     "functional/prefer-type-literal": "off",
+    "functional/no-let": [
+      "error",
+      { allowInFunctions: true, ignorePattern: "^mutable" },
+    ],
     "import/imports-first": "error",
     "import/named": "off",
     "import/namespace": "off",
@@ -96,7 +96,10 @@ module.exports = {
   overrides: [
     {
       files: ["**.{ts,tsx}"],
-      extends: ["plugin:@typescript-eslint/recommended"],
+      extends: [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:functional/external-typescript-recommended",
+      ],
       plugins: ["@typescript-eslint"],
       parser: "@typescript-eslint/parser",
       parserOptions: {
