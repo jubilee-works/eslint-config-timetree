@@ -12,6 +12,7 @@ jobs:
         with:
           node-version-file: .node-version
           cache: yarn
+          registry-url: https://registry.npmjs.org
       - name: yarn install
         run: yarn install --frozen-lockfile --prefer-offline
       - uses: release-drafter/release-drafter@v5
