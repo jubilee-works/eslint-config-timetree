@@ -47,6 +47,7 @@ module.exports = {
     "functional/no-this-expressions": "off",
     "functional/no-throw-statements": "off",
     "functional/no-try-statements": "off",
+    "functional/prefer-immutable-types": "off",
     "functional/prefer-property-signatures": "error",
     "functional/prefer-readonly-type": ["error", { ignorePattern: "^mutable" }],
     "functional/prefer-type-literal": "off",
