@@ -41,7 +41,7 @@
   "devDependencies": {
     "@tsconfig/node-lts": "18.12.3",
     "@tsconfig/strictest": "2.0.1",
-    "@types/eslint": "8.44.0",
+    "@types/eslint": "8.44.1",
     "@types/node": "18.16.19",
     "@types/react": "18.2.16",
     "eslint": "8.45.0",
