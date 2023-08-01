@@ -60,7 +60,6 @@ module.exports = {
     "import/namespace": "off",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
-    "import/no-unresolved": "off",
     "import/order": [
       "error",
       {
