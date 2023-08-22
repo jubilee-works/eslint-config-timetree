@@ -103,10 +103,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@tsconfig/node-lts@18.12.3":
-  version "18.12.3"
-  resolved "https://registry.yarnpkg.com/@tsconfig/node-lts/-/node-lts-18.12.3.tgz#57d651e80ce2c1dbaafda6d272e6d1abd66760e4"
-  integrity sha512-a8FraAjwaGKERCO5PowJeeCE/0Kv1whqegfNwJRIPG08Z5QDr6Kl1CgRrdIjGQtUCpSm+/BDCGeRKfAF1mg+ZQ==
+"@tsconfig/node-lts@18.12.4":
+  version "18.12.4"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node-lts/-/node-lts-18.12.4.tgz#fe51be86e6226e3f925b8957d6c21a3bce426fae"
+  integrity sha512-yjhgQkwlIjxDksTSDbFl6fDOekgD0DeHXwfpxEnRY8rwK28UjgMf67b+l8SSVS0sRpOb/xYEKPJ8DpzhgLokZA==
 
 "@tsconfig/strictest@2.0.1":
   version "2.0.1"
