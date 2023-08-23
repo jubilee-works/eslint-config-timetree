@@ -8,6 +8,8 @@ module.exports = {
     "plugin:functional/recommended",
     "plugin:import/errors",
     "plugin:jest-formatting/recommended",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
     "prettier",
   ],
   plugins: ["functional", "jest-formatting", "jest", "prefer-arrow", "promise"],
