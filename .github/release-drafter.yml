@@ -34,6 +34,8 @@ version-resolver:
       - chore
       - renovate
   default: patch
+exclude-labels:
+  - dev
 
 autolabeler:
   - label: "breaking change"

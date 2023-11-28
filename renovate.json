@@ -1,4 +1,5 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:js-lib"],
   "postUpdateOptions": ["yarnDedupeHighest"],
   "lockFileMaintenance": {
@@ -6,12 +7,14 @@
     "automerge": true,
     "extends": [
       "schedule:monthly"
-    ]
+    ],
+    "labels": ["dev"]
   },
   "packageRules": [
     {
       "depTypeList": ["devDependencies"],
-      "automerge": true
+      "automerge": true,
+      "labels": ["dev"]
     }
   ]
 }
