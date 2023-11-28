@@ -24,7 +24,11 @@ module.exports = {
     "jest/globals": true,
   },
   settings: {
-    "import/resolver": { alias: true },
+    "import/resolver": {
+      typescript: {
+        project: "./tsconfig.json",
+      },
+    },
   },
   rules: {
     "arrow-body-style": ["error", "as-needed"],
