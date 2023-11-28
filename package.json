@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "eslint './**/*.{js,jsx,ts,tsx}'",
     "build": "rimraf dist && tsc",
-    "prepublish": "yarn build"
+    "prepublish": "npm run build"
   },
   "files": [
     "dist",

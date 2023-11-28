@@ -9,6 +9,9 @@ This is intended to use at a project for React + TypeScript + Prettier.
 ## Install
 
 ```sh
+npm i --save-dev eslint prettier typescript react // install peerDependencies
+npm i --save-dev eslint-config-timetree
+
 yarn add --dev eslint prettier typescript react // install peerDependencies
 yarn add --dev eslint-config-timetree
 ```
@@ -42,11 +45,11 @@ module.exports = {
 Run `eslint`!
 
 ```sh
-yarn eslint src
+npx eslint src
 ```
 
 If you want to lint TypeScript files including `.tsx`, you can use `--ext` option ESLint has.
 
 ```sh
-yarn eslint --ext .ts,.tsx src
+npx eslint --ext .ts,.tsx src
 ```

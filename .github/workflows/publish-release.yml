@@ -11,10 +11,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
-          cache: yarn
+          cache: npm
           registry-url: https://registry.npmjs.org
-      - name: yarn install
-        run: yarn install --frozen-lockfile --prefer-offline
+      - run: npm ci
       - uses: release-drafter/release-drafter@v5
         id: release_drafter
         env:
