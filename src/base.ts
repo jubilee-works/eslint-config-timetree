@@ -1,5 +1,14 @@
 import type { Linter } from "eslint";
 
+const isJestInstalled = (() => {
+  try {
+    require.resolve("jest");
+    return true;
+  } catch {
+    return false;
+  }
+})();
+
 module.exports = {
   extends: [
     "eslint:recommended",
@@ -7,12 +16,21 @@ module.exports = {
     "plugin:functional/external-vanilla-recommended",
     "plugin:functional/recommended",
     "plugin:import/errors",
-    "plugin:jest-formatting/recommended",
-    "plugin:jest/recommended",
-    "plugin:jest/style",
     "prettier",
+    ...(isJestInstalled
+      ? [
+          "plugin:jest-formatting/recommended",
+          "plugin:jest/recommended",
+          "plugin:jest/style",
+        ]
+      : []),
   ],
-  plugins: ["functional", "jest-formatting", "jest", "prefer-arrow", "promise"],
+  plugins: [
+    "functional",
+    "prefer-arrow",
+    "promise",
+    ...(isJestInstalled ? ["jest-formatting", "jest"] : []),
+  ],
   parserOptions: {
     sourceType: "module",
     ecmaVersion: "latest",
@@ -21,7 +39,7 @@ module.exports = {
     es6: true,
     node: true,
     browser: true,
-    "jest/globals": true,
+    ...(isJestInstalled ? { "jest/globals": true } : {}),
   },
   settings: {
     "import/resolver": {
