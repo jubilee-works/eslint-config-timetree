@@ -13,8 +13,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
-          cache: yarn
-      - name: yarn install
-        run: yarn install --frozen-lockfile --prefer-offline
-      - run: yarn build
-      - run: yarn lint
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run lint
