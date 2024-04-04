@@ -57,10 +57,8 @@ module.exports = {
     "functional/immutable-data": [
       "error",
       {
-        ignorePattern: ["^mutable", "module.exports"],
+        ignoreIdentifierPattern: ["^mutable", "module.exports"],
         ignoreAccessorPattern: "^*",
-        ignoreImmediateMutation: true,
-        assumeTypes: true,
       },
     ],
     "functional/no-classes": "off",
@@ -77,7 +75,7 @@ module.exports = {
     "functional/prefer-type-literal": "off",
     "functional/no-let": [
       "error",
-      { allowInFunctions: true, ignorePattern: "^mutable" },
+      { allowInFunctions: true, ignoreIdentifierPattern: "^mutable" },
     ],
     "import/imports-first": "error",
     "import/named": "off",
