@@ -43,7 +43,7 @@
     "@tsconfig/strictest": "2.0.5",
     "@types/eslint": "8.56.8",
     "@types/node": "20.12.7",
-    "@types/react": "18.2.75",
+    "@types/react": "18.2.77",
     "eslint": "8.57.0",
     "react": "18.2.0",
     "rimraf": "5.0.5",
