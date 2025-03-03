@@ -42,7 +42,7 @@
     "@tsconfig/node-lts": "22.0.1",
     "@tsconfig/strictest": "2.0.5",
     "@types/eslint": "8.56.12",
-    "@types/node": "22.13.8",
+    "@types/node": "22.13.9",
     "@types/react": "19.0.10",
     "eslint": "8.57.1",
     "react": "19.0.0",
